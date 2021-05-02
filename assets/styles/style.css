@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: grey;
+}
+
+a{
+    text-decoration: none;
+    color: #7433FF;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass{
+    background:#6effff80;
+    min-height: 80vh;
+    width:90%;
+    border-radius: 1rem;
+    display:flex;
+    flex-direction:row;
+    backdrop-filter:blur(1rem);
+}
+.form-box{
+    padding: 50px 100px 50px 150px;
+    width:85%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.form-box .close{
+    height:40px;
+    align-self: flex-start;
+    margin-left:-100px;
+}
+.form-box .headings{
+    min-width: 100%;
+    text-align: start;
+    font-size: 30px;
+}
+.form-box p{
+    margin-top: 15px;
+    min-width: 100%;
+    text-align: start;
+    font-size: 10px;
+}
+.form-box form{
+    min-width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction:column;
+}
+.form-box input{
+    display:block;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(194, 194, 194);
+    padding: 10px;
+    font-size:14px;
+    outline:none;
+}
+.form-box label{
+    margin-left: 10px;
+    color: grey;
+    font-size:14px;
+    margin-bottom: 8px;
+}
+.form-box button{
+    margin-top:8px;
+    background-color:#7433FF;
+    color: white;
+    font-weight:900;
+    border:none;
+    width:130px;
+    padding:12px;
+    border-radius:10px;
+}
+.logo{
+    display:flex;
+    width:110%;
+    min-height: 80vh;
+    flex-direction: row;
+}
+.illustration{
+    width:100%;
+    min-height: 80vh;
+    background:#6EFFFF;
+    border-radius: 0px 1rem 1rem 0px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px 50px 50px 50px;
+}
+.illustration .signup-illustration{
+    width: 100%;
+}
+.illustration h3{
+    text-align: center;
+}
+.logo .divider{
+    height:100%;
+}
+.background{
+    z-index: -1;
+    position: absolute;
+}
+.object1{
+    bottom:0;
+    left: 0;
+    min-height: 300px;
+}
+.object2{
+    top:0;
+    right: 0;
+    min-height: 400px;
+}
