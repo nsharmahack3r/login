@@ -20,7 +20,7 @@ main{
     justify-content: center;
 }
 .glass{
-    background:#6effff80;
+    background:#fef6a179;
     min-height: 80vh;
     width:90%;
     border-radius: 1rem;
@@ -45,6 +45,10 @@ main{
     min-width: 100%;
     text-align: start;
     font-size: 30px;
+}
+.form-box h4{
+    min-width: 100%;
+    text-align: start;
 }
 .form-box p{
     margin-top: 15px;
@@ -85,6 +89,15 @@ main{
     padding:12px;
     border-radius:10px;
 }
+.signin-methods{
+    width: 100%;
+    display:flex;
+    justify-content: start;
+}
+.signin-methods img{
+    width:3rem;
+    margin-right: 0.5rem;
+}
 .logo{
     display:flex;
     width:110%;
@@ -94,7 +107,7 @@ main{
 .illustration{
     width:100%;
     min-height: 80vh;
-    background:#6EFFFF;
+    background:#FEF6A1;
     border-radius: 0px 1rem 1rem 0px;
     display:flex;
     align-items: center;
